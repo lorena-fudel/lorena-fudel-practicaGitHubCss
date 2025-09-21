@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" >
 
 # ✨ Lorena Fudel - Práctica GitHub con HTML y CSS ✨
 
@@ -10,6 +10,11 @@ Aprendiendo, creando y compartiendo 🚀
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 </div>
+
+<div align="center">
+  <img src="img/gato.png" alt="Banner" width="200" style="border-radius: 20px;">
+</div>
+
 
 ---
 
