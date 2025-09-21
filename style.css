@@ -104,21 +104,17 @@ article{
 }
 
 
+
 div{
-    
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 3px;
-}
-
-
-div{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4%;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
     flex: 1; /* Cada card ocupa el mismo espacio */
     display: flex;
     flex-direction: column;
@@ -132,7 +128,6 @@ div{
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 15px;
-    margin: 20px;
     flex: 1; /* Cada card ocupa el mismo espacio */
     display: flex;
     flex-direction: column;
