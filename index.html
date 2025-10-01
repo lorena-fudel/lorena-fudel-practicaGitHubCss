@@ -11,53 +11,135 @@
     <header id="inicio">
         <div class="h1nav">
             <!-- <video autoplay loop muted src="videos/galaxia.mp4"></video> -->
-            <img class="fotoPerfil" src="img/gato.png" alt="foto de perfil">
-            <h1>Mi primer proyecto con GitHub</h1>
-            <h1>retoque</h1>
+            <img class="fotoPerfil" src="img/pc.jpg" alt="foto de perfil">
+            <h1>Mi primer proyecto con → GitHub Despliegues</h1>
+            <h1>Act 1</h1>
             <nav>
-                <a class="mediaq" href="#inquietudes">INQUIETUDES</a>
-                <a class="mediaq" href="#objetivos">OBJETIVOS</a>
-                <a class="mediaq" href="#filosofiaDeVida">FILOSOFIA DE VIDA</a>
+                <a class="mediaq" href="#comandos">comandos iniciales git</a>
+                <a class="mediaq" href="#ramas">ramas</a>
+                <a class="mediaq" href="#git">¿Git? ¿GitHub?</a>
             </nav>
         </div>
     </header>
     <main>
         <article>
             <div class="card">
-                <p>card 1</p>
-                <img src="img/cafe.png" alt="cafe">
+                <p>COMANDOS</p>
+                <img src="img/gato-cascos.jpg" alt="gato-cascos">
             </div>
             <div class="card">
-                <p>card 2</p>
-                <img src="img/cafe.png" alt="cafe">
+                <p>RAMAS</p>
+                <img src="img/gato-gorro.jpg" alt="gato-gorro">
             </div>
             <div class="card">
-                <p>card 3</p>
-                <img src="img/cafe.png" alt="cafe">
-            </div>
-        </article>
-        <article class="text" id="inquietudes">
-            <h2>Inquietudes</h2>
-            <p>Me gusta trabajar en equipo y en entornos colaborativos donde el respeto y la positividad sean parte del día a día. Creo que el trabajo duro y el aprendizaje continuo son fundamentales para crecer y enfrentar los desafíos con actitud positiva. Ante la adversidad, intento mantener la calma y buscar soluciones, aprendiendo de cada experiencia. La naturaleza y los animales me inspiran y me recuerdan la importancia de cuidar nuestro entorno. La informática es otra de mis pasiones, porque me permite explorar, crear y conectar ideas. Valoro profundamente un buen ambiente laboral, donde todos podamos aportar y apoyarnos mutuamente. Compartir conocimientos y colaborar me hace sentir parte de algo más grande. Cada día busco actuar con conciencia, fomentando respeto, empatía y entusiasmo en cada tarea. Creo que combinar esfuerzo, aprendizaje y colaboración nos lleva a lograr objetivos y a disfrutar del camino.</p>
-            <div class="card">
-                <p>card 1</p>
-                <img src="img/cafe.png" alt="cafe">
+                <p>GIT-GITHUB</p>
+                <img src="img/gato-panza.jpg" alt="gato-panza">
             </div>
         </article>
-        <article class="text" id="objetivos">
-            <h2>Objetivos</h2>
-            <p>Vengo del sector de la gestión y administración de equipos de trabajo, donde aprendí la importancia de organizar, coordinar y motivar a las personas. Para mí, un buen ambiente laboral es fundamental, y siempre busco fomentar la colaboración y el compañerismo dentro del equipo. Desde siempre me ha interesado la informática, y por eso actualmente estoy realizando estudios en esta área para ampliar mis conocimientos y habilidades. Mi objetivo laboral es desarrollarme en el sector de la informática, idealmente desde un enfoque creativo y que también permita generar conciencia y aportar valor. Aprendo con rapidez y me adapto con facilidad a los cambios, lo que me permite enfrentar nuevos desafíos con seguridad. Me gustan los retos y disfruto afrontarlos con dedicación, cariño y atención al detalle. Busco un entorno donde pueda combinar mi experiencia en gestión de equipos con mi pasión por la tecnología, contribuyendo a los proyectos en los que participo. Considero que trabajar con entusiasmo, creatividad y responsabilidad es la clave para lograr resultados sólidos y duraderos.</p>
+        <article class="text" id="comandos">
+            <h2>COMANDOS PRINCIPALES</h2>
+            <p>
+                <ul>
+                    <li>git --version</li>
+                    <li>git config --global user.name "Tu Nombre"
+                        git config --global user.email "tuemail@example.com"
+                        </li>
+                    <li>git config --list</li>
+                    <li>cd mi-proyecto</li>
+                    <li>git init</li>
+                    <li>git status</li>
+                    <li>git add archivo.txt
+                        # o todos los archivos
+                        git add .</li>
+                    <li>commit -m "Descripción del cambio"</li>
+                    <li>git remote add origin https://github.com/tuusuario/mi-proyecto.git</li>
+                    <li>Subir tu código:    git push -u origin main</li>
+                    <li>Descargar cambios de un repo remoto:    git pull origin main</li>
+                    <li>git log
+                        # versión resumida
+                        git log --oneline</li>
+                </ul>
+            </p>
             <div class="card">
                 <p>card 1</p>
-                <img src="img/cafe.png" alt="cafe">
+                <img class="img-api" src="img/api.jpg" alt="PC">
             </div>
         </article>
-        <article class="text"  id="filosofiaDeVida">
-            <h2>Filosofia de Vida</h2>
-            <p>Siempre he sentido una conexión especial con la naturaleza y los animales; su forma de vivir me inspira a ser más consciente y respetuosa. Me preocupa que el mundo que nos rodea se mantenga en equilibrio, y por eso intento cuidar cada detalle de mi entorno. Para mí, el respeto no se limita a las personas, sino que incluye todo ser vivo y el lugar donde vivimos. Vivo tratando de ponerme en el lugar de los demás, practicando la empatía en cada interacción. En mi trabajo y en mi vida personal, busco generar un ambiente armonioso y positivo, donde la colaboración y la buena energía sean la base de todo. Creo que pequeñas acciones diarias pueden marcar la diferencia, y por eso procuro actuar con conciencia. Mi meta es vivir de manera que cada gesto refleje respeto, empatía y responsabilidad. Así siento que contribuyo a un mundo más justo y equilibrado para todos.</p>
+        <article class="text" id="ramas">
+            <h2>RAMAS - BRANCH</h2>
+            <p>
+        <ul>
+                    <li>crear una rama → git branch</li>
+                <li>git branch nombre-de-la-rama</li>
+                <li>cambiar a esa rama → git checkout nombre-de-la-rama</li>
+                <li>crear y cambiar rama en un solo comando → git checkout -b nombre-de-la-rama/li>
+                <li>subir la nueva rama al repositorio remoto:   git push -u origin nombre-de-la-rama</li>
+                <li>EJEMPLO:</li>
+                <li>comprueba en que rama estas con:  git branch   (la rama actual aparecerá con un * )</li>
+                <li>cambiar de rama?? → git checkout nombre-de-la-rama</li>
+                <li>añade archivos a esa rama   stage:   git add .          git add archivo.html archivo.css</li>
+                <li>poner nombre al cambio, commit:    git commit -m "mensaje del camnio, del commit"</li>
+                <li>sube los archivos a la rama remota:    git push origin nombre-de-la-rama</li>
+                <li>***************************************</li>
+                <li>unir rama secundaria con main: </li>
+                <li>¿estoy en main? git checkout main</li>
+                <li>¡usa merge para unir la otra rama a la actual!   git merge nombre-de-la-OTRA-rama</li>
+                <li>subir cambios al repositorio remoto : git push origin main</li>
+                <li>¿BORRAR LA RAMA SECUNDARIA? → git branch -d feature-login</li>
+                <li>¿BORRAR TAMBIEN EN REMOTO ESA RAMA? → git push origin --delete feature-login</li>
+        </ul>
+            </p>
             <div class="card">
                 <p>card 1</p>
-                <img src="img/cafe.png" alt="cafe">
+                <img class="img-api" src="img/api.jpg" alt="PC">
+            </div>
+        </article>
+        <article class="text"  id="git">
+            <h2>GIT - GITHUB</h2>
+            <p>
+                ¿Qué es Git?
+
+Es un sistema de control de versiones distribuido.
+
+Te permite guardar el historial de cambios en tus archivos (normalmente código) y volver atrás si algo falla.
+
+Funciona en tu ordenador, aunque también se puede sincronizar con servidores remotos.
+
+Comandos típicos: git init, git add, git commit, git branch, git merge, git push…
+
+👉 Piensa en Git como la herramienta que maneja el cerebro del proyecto: los cambios, las ramas y los commits.
+            </p>
+            <p>
+                ¿Qué es GitHub?
+
+Es una plataforma en la nube que usa Git por detrás.
+
+Sirve para guardar repositorios online, compartirlos y colaborar con otras personas.
+
+Añade funciones extra que Git no trae de serie:
+
+Interfaz web para tus repositorios.
+
+Issues (gestión de tareas).
+
+Pull Requests (proponer cambios).
+
+Wikis y documentación.
+
+Integraciones con CI/CD.
+
+👉 Piensa en GitHub como el punto de encuentro online donde varios programadores pueden colaborar en el mismo proyecto usando Git.
+            </p>
+            <p>
+                En resumen:
+
+Git = la herramienta para controlar versiones (local o remoto).
+
+GitHub = un servicio en internet que usa Git para que trabajes en equipo.
+            </p>
+            <div class="card">
+                <p>card 1</p>
+                <img class="img-api" class="img-api" src="img/api.jpg" alt="PC">
             </div>
         </article>
 
